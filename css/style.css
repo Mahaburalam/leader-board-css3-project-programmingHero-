@@ -1,4 +1,26 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Poppins:wght@400;500&family=Ubuntu&display=swap');
+/*common css or uilities*/
+body{
+	font-family: 'Playfair Display', serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #F3F1FF;
+}
+main{
+	display: flex;
+	justify-content: center;
+}
+.container{
+	background-color: #FFFFFF;
+	width: 870px;
+	padding: 30px;
+}
 /*top player css*/
+.section-title{
+	color: #562EFF;
+	font-size: 24px;
+}
 .players{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -11,5 +33,7 @@
 .player{
 	display: flex;
 	align-items: center;
-	grid-gap: 12px;
+}
+.player-name{
+	margin-left: 16px;
 }
